@@ -16,4 +16,21 @@
     <properties>
         <guava.version>25.0-jre</guava.version>
     </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.openrewrite.maven</groupId>
+                <artifactId>rewrite-maven-plugin</artifactId>
+                <version>2.0.0-SNAPSHOT</version>
+                <configuration>
+                    <activeRecipes>
+                        <recipe>com.usemoderne.SampleMavenDependencies</recipe>
+                    </activeRecipes>
+                    <metricsUri>LOG</metricsUri>
+                    <configLocation>rewrite.yml</configLocation>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 </project>
