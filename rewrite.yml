@@ -13,6 +13,7 @@ name: com.usemoderne.dependencies.SpringBoot
 visitors:
   - org.openrewrite.maven.UpgradeParentVersion:
       groupId: org.springframework.boot
+      artifactId: spring-boot-starter-parent
       toVersion: 1.5.X
 
 ---
