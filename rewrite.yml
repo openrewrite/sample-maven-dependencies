@@ -18,4 +18,4 @@ visitors:
 type: specs.openrewrite.org/v1beta/recipe
 name: com.usemoderne.SampleMavenDependencies
 include:
-  - com.usemoderne.dependencies.*
+  - 'com.usemoderne.dependencies.*'
