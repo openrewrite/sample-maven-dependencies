@@ -5,7 +5,8 @@ name: com.usemoderne.dependencies.Guava
 visitors:
   - org.openrewrite.maven.UpgradeVersion:
       groupId: com.google.guava
-      toVersion: 25.0-30.0
+      toVersion: 25-30
+      metadataPattern: '-jre'
 ---
 type: specs.openrewrite.org/v1beta/visitor
 name: com.usemoderne.dependencies.SpringBoot
