@@ -1,20 +1,18 @@
+---
 type: specs.openrewrite.org/v1beta/visitor
-
 ## this is a name that a user defines and can refer to in a recipe
 name: com.usemoderne.dependencies.Guava
-
 visitors:
   - org.openrewrite.maven.UpgradeVersion:
-    groupId: com.google.guava
-    version: 25.0-30.0
-
+      groupId: com.google.guava
+      version: 25.0-30.0
 ---
 type: specs.openrewrite.org/v1beta/visitor
 name: com.usemoderne.dependencies.SpringBoot
 visitors:
   - org.openrewrite.maven.UpgradeParentVersion:
-    groupId: org.springframework.boot
-    version: 1.5.X
+      groupId: org.springframework.boot
+      version: 1.5.X
 
 ---
 type: specs.openrewrite.org/v1beta/recipe
