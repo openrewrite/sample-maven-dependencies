@@ -13,6 +13,11 @@
     <artifactId>sample-maven-dependencies</artifactId>
     <version>1</version>
     
+    <modules>
+        <module>core</module>
+        <module>server</module>
+    </modules>
+
     <properties>
         <guava.version>25.0-jre</guava.version>
     </properties>

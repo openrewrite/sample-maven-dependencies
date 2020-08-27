@@ -5,14 +5,14 @@ name: com.usemoderne.dependencies.Guava
 visitors:
   - org.openrewrite.maven.UpgradeVersion:
       groupId: com.google.guava
-      version: 25.0-30.0
+      toVersion: 25.0-30.0
 ---
 type: specs.openrewrite.org/v1beta/visitor
 name: com.usemoderne.dependencies.SpringBoot
 visitors:
   - org.openrewrite.maven.UpgradeParentVersion:
       groupId: org.springframework.boot
-      version: 1.5.X
+      toVersion: 1.5.X
 
 ---
 type: specs.openrewrite.org/v1beta/recipe
