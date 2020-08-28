@@ -33,7 +33,7 @@
                         <recipe>com.usemoderne.SampleMavenDependencies</recipe>
                     </activeRecipes>
                     <metricsUri>LOG</metricsUri>
-                    <configLocation>rewrite.yml</configLocation>
+                    <configLocation>${maven.multiModuleProjectDirectory}/rewrite.yml</configLocation>
                 </configuration>
             </plugin>
         </plugins>
